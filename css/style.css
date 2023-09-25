@@ -84,7 +84,8 @@ h1 {
 .container-small {
     width: 60%;
     max-width: 1100px;
-    margin: 2rem auto;
+    margin: 0 auto;
+    padding: 2rem;
 }
 
 .plan-flex {
@@ -125,4 +126,46 @@ h1 {
     width: 40%;
     background-color: aquamarine;
     height: 300px;
+}
+
+/* description */
+.description-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.description-col {
+    width: calc(100% / 3 - 2rem / 3);
+    background-color: aqua;
+    height: 200px;
+}
+
+/* companies */
+.companies-flex {
+    display: flex;
+}
+
+.companies-col {
+    width: calc(100% / 3);
+    background-color: black;
+    height: 200px;
+}
+
+.red {
+    background-color: red;
+}
+
+/* free-trial */
+.free-trial-background {
+    background-color: cornflowerblue;
+}
+
+.free-trial-flex {
+    display: flex;
+    justify-content: space-between;
 }
