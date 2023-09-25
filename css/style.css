@@ -169,3 +169,48 @@ h1 {
     display: flex;
     justify-content: space-between;
 }
+
+/* frequently-questions */
+.frequently-questions-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.frequently-questions-col {
+    width: 100%;
+    background-color: green;
+    height: 300px;
+}
+
+/* footer */
+footer {
+    background-color: black;
+}
+
+/* footer-top */
+.container-footer {
+    width: 70%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.footer-top-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.footer-top-col {
+    width: calc(100% / 5 - 4rem / 5);
+    background-color: blanchedalmond;
+    height: 200px;
+}
+
+/* footer-bottom */
+.language {
+    padding: 2rem 0;
+    border-top: 3px solid rgb(75, 75, 75);
+    color: white;
+}
