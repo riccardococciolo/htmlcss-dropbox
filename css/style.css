@@ -64,7 +64,6 @@ nav {
 
 h1 {
     font-weight: bold;
-    width: 100%;
 }
 
 .hero-col-small {
@@ -77,4 +76,53 @@ h1 {
     width: 60%;
     height: 200px;
     background-color: brown;
+}
+
+/* main */
+
+/* plan */
+.container-small {
+    width: 60%;
+    max-width: 1100px;
+    margin: 2rem auto;
+}
+
+.plan-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.billing {
+    width: 100%;
+}
+
+.plan-vertical-col {
+    width: calc(100% / 3 - 2rem / 3);
+    background-color: blueviolet;
+    height: 500px;
+}
+
+.plan-horizontal-col {
+    width: 100%;
+    background-color: blueviolet;
+    height: 100px;
+}
+
+/* partner */
+.partner-flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.partner-col-big {
+    width: 60%;
+    background-color: aquamarine;
+    height: 300px;
+}
+
+.partner-col-small {
+    width: 40%;
+    background-color: aquamarine;
+    height: 300px;
 }
