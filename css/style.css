@@ -11,3 +11,70 @@ img {
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
+/* common */
+.vertical-align {
+    vertical-align: middle;
+}
+
+/* header */
+header {
+    background-color: cornflowerblue;
+}
+
+/* nav */
+nav {
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    /* position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    z-index: 9999;
+}
+
+.nav-link {
+    margin-left: 1rem;
+    color: grey;
+}
+
+.button {
+    padding: 5px 10px;
+    color: white;
+}
+
+.blu {
+    background-color: blue;
+}
+
+/* hero */
+.container-hero {
+    width: 70%;
+    max-width: 1100px;
+    margin: 2rem auto;
+}
+
+.hero-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+h1 {
+    font-weight: bold;
+    width: 100%;
+}
+
+.hero-col-small {
+    width: calc(40% - 1rem);
+    height: 200px;
+    background-color: bisque;
+}
+
+.hero-col-big {
+    width: 60%;
+    height: 200px;
+    background-color: brown;
+}
