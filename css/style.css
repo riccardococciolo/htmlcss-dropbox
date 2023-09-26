@@ -98,6 +98,7 @@ nav {
     padding: 5px 10px;
     color: white;
     text-align: center;
+    display: inline-block;
 }
 
 /* hero */
@@ -217,27 +218,28 @@ h1 {
 
 .partner-col-big {
     width: 60%;
-    background-color: aquamarine;
-    height: 300px;
 }
 
 .partner-col-small {
     width: 40%;
-    background-color: aquamarine;
-    height: 300px;
+    padding: 2rem;
+}
+
+.button-white {
+    color: black;
+    border: 1px solid black;
+    margin-top: 1rem;
 }
 
 /* description */
 .description-flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .description-col {
-    width: calc(100% / 3 - 2rem / 3);
-    background-color: aqua;
-    height: 200px;
+    width: calc(100% / 3 - 4rem / 3);
 }
 
 /* companies */
