@@ -225,7 +225,7 @@ h1 {
     padding: 2rem;
 }
 
-.button-white {
+.button-border {
     color: black;
     border: 1px solid black;
     margin-top: 1rem;
@@ -259,12 +259,22 @@ h1 {
 
 /* free-trial */
 .free-trial-background {
-    background-color: cornflowerblue;
+    background-color: var(--cyan);
 }
 
 .free-trial-flex {
     display: flex;
     justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.dark-red {
+    color: rgb(85, 0, 0);
+}
+
+.button-white {
+    background-color: white;
+    color: black;
 }
 
 /* frequently-questions */
@@ -272,12 +282,43 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    padding: 2rem 0;
 }
 
 .frequently-questions-col {
     width: 100%;
-    background-color: green;
-    height: 300px;
+}
+
+.fa-chevron-down {
+    display: inline-block;
+    text-align: right;
+    margin-right: 2rem;
+}
+
+.faq {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+    width: 100%;
+}
+
+.bb-top {
+    border-top: 1px solid grey;
+}
+
+.hide {
+    display: none;
+    margin-top: 1rem;
+}
+
+.faq:hover .hide {
+    display: inline-block;
+}
+
+.faq:hover .fa-chevron-down {
+    transform: rotate(180deg);
 }
 
 /* footer */
@@ -301,13 +342,21 @@ footer {
 
 .footer-top-col {
     width: calc(100% / 5 - 4rem / 5);
-    background-color: blanchedalmond;
-    height: 200px;
+    color: white;
+}
+
+.footer-top-col ul {
+    font-size: .7rem;
+}
+
+.mb-05 {
+    margin-bottom: .5rem;
 }
 
 /* footer-bottom */
 .language {
     padding: 2rem 0;
     border-top: 3px solid rgb(75, 75, 75);
-    color: white;
+    color: grey;
+    font-size: .7rem;
 }
