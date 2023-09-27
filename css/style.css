@@ -106,6 +106,11 @@ nav a {
     color: inherit;
 }
 
+nav .down-bar:hover {
+    padding-bottom: 24px;
+    border-bottom: 3px solid darkgray;
+}
+
 .ul-flex {
     display: flex;
     align-items: center;
