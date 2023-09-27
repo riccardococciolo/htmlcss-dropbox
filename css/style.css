@@ -2,6 +2,15 @@
     --cyan: rgb(180 208 231);
     --button-color: rgb(0 97 255);
     --nav-height: 70px;
+    --partner-green: rgb(162 211 155);
+    --partner-brown: rgb(97 8 43);
+    --partner-blu: rgb(0 147 206);
+    --partner-red: rgb(255 28 28);
+    --partner-darkred: rgb(213 0 31);
+    --partner-lightblu: rgb(180 208 231);
+    --partner-darkblu: rgb(13 36 129);
+    --partner-yellow: rgb(255 216 48);
+    --partner-grey: rgb(245 245 245);
 }
 
 * {
@@ -275,12 +284,87 @@ h1 {
 
 .companies-col {
     width: calc(100% / 3);
-    background-color: black;
-    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.companies-inner-col {
+    width: calc(100% / 2);
+}
+
+.box {
+    padding-top: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.companies {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    object-fit: cover;
+}
+
+.companies-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+    scroll-behavior: auto;
+    padding: 2rem;
+}
+
+.filter {
+    filter: invert(1);
+}
+
+.half-width {
+    width: 50%;
+}
+
+.companies-divider {
+    width: 20%;
+    margin: 2rem 0;
+}
+
+.green {
+    background-color: var(--partner-green);
+}
+
+.brown {
+    background-color: var(--partner-brown);
+}
+
+.blu {
+    background-color: var(--partner-blu);
 }
 
 .red {
-    background-color: red;
+    background-color: var(--partner-red);
+}
+
+.darkred {
+    background-color: var(--partner-darkred);
+}
+
+.lightblu {
+    background-color: var(--partner-lightblu);
+}
+
+.darkblu {
+    background-color: var(--partner-darkblu);
+}
+
+.yellow {
+    background-color: var(--partner-yellow);
+}
+
+.grey {
+    background-color: var(--partner-grey);
 }
 
 /* free-trial */
